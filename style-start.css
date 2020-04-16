@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Amatic SC', cursive;
+}
+
+body {
+    background-color: #f0a500;
+}
+
+
+#title p {
+    font-size: 9rem;
+    text-align: center;
+    padding-top: 8rem;
+}
+
+#btn-start {
+    display: inline-block;
+    position: absolute;
+    font-size: 3rem;
+    color: #dbdbdb;
+    padding: 1rem 2rem;
+    top: 70vh;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 1000px;
+    background-color: #cf7500;
+    cursor: pointer;
+    transition: all ease-out .2s;
+}
+
+#btn-start:hover {
+    background-color: rgb(212, 161, 49);
+}
+
+#btn-start a {
+    text-decoration: none;
+    color: #dbdbdb;
+}
+
+#btn-start a:active {
+    color: gray;
+}
+
+#palm-tree {
+    display: inline-block;
+    position: absolute;
+    top: 17vh;
+    left: 20vh;
+    background-image: url('images/palm-tree-silhouette-vol-2-1.png');
+    background-size: cover;
+    width: 20vw;
+    height: 60vh;
+}
+
